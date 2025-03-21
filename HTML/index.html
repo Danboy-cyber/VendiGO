@@ -4,39 +4,155 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../VendiGo Images/VendiGo logo.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../CSS/index.css">
     <title>VendiGo : Where all technologies are sold</title>
 </head>
 <body>
     <!-- Header starts -->
-    <header class="header">
+    <header class="header1">
         <!--  -->
         <div class="altogether1">
             <!--  -->
-            <div class="Hotline">
-                <button>Hotline</button>
-                <p>+234 906 314 3511</p>
-            </div>
-
-            <div class="images">
-                <img src="../VendiGo Images/VendiGo logo.webp" alt="" srcset="">
+            <div class="drop">
+                <ul class="navbar">
+                    <li onmouseover="showDropdown()">
+                        <i class="fa-solid fa-bars dropdown"></i>
+                        <ul class="dropdown-menu" id="dropdown" onmouseout="hideDropdown()">
+                            <a href="../HTML/index.html">HOME</a>
+                            <a href="../HTML/about.html">ABOUT</a>
+                            <a href="../HTML/product.html">PRODUCTS</a>
+                            <a href="../HTML/contact.html">CONTACT US</a>
+                        </ul>
+                    </li>
+                </ul>
             </div>
 
             <div class="ptags">
-                <p>HOME</p>
-                <p>ABOUT</p>
-                <p>PRODUCTS</p>
-                <p>CONTACT US</p>
+                <a href="">HOME</a>
+                <a href="../HTML/about.html">ABOUT</a>
+                <a href="../HTML/product.html">PRODUCTS</a>
+                <a href="../HTML/contact.html">CONTACT US</a>
             </div>
 
-            <div class="cart-icon">
-                <i class="fa-solid fa-cart-plus"></i>
+            <div class="images">
+                <a href="" class="image">
+                    <img src="../VendiGo Images/VendiGo logo.webp" alt="" srcset="">
+                </a>
+                <p><b style="font-weight: 500;">VendiGo</b> MART</p>
             </div>
 
+            <div class="Hotline">
+                <button>Hotline</button>
+                <p>+234 906 314 3511</p>
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-plus"></i>
+                </div>
+
+                <div class="buttons">
+                    <button class="but">Login</button>
+                    <span style="color: white;">|</span>
+                    <button class="but">Sign In</button>
+                </div>
+            </div>
         </div>
         <!--  -->
     </header>
-    <!-- Header ends -->
+    <!-- Header1 ends -->
+
+    <!-- Header2 starts -->
+    <div class="head">
+        <div class="together">
+            <div class="search">
+                <input type="text" placeholder="I am looking for..." class="searchme">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            </div>
+        </div>
+    </div>
+    <!-- Header2 ends -->
+
+    <!-- section1 starts  -->
+    <section class="section1">
+        <div class="carousel">
+            <div class="carousel-images">
+                <div class="slide slide1">
+                    <p>Audio-Technica ATH-M50x </p>
+                    <button>Shop Now</button>
+                </div>
+                <div class="slide slide2">
+                    <p>Sony Dual PlayStation 4</p>
+                    <button>Shop Now</button>
+                </div>
+                <div class="slide slide3">
+                    <p>Apple Comfort AirPods Pro</p>
+                    <button>Shop Now</button>
+                </div>
+            </div>
+            <button class="carousel-button left">&#8249;</button>
+            <button class="carousel-button right">&#8250;</button>
+        </div>  
+    </section>
+    <!-- section1 ends -->
+
+    <section class="section2">
+        <div class="by">
+            <h2>Shop By Category</h2>
+        </div>
+
+        <div class="categories">
+            <div class="image-contain image-contain1">
+                <p>LAPTOP</p>
+                <button>SHOP NOW</button>
+            </div>
+
+            <div class="image-contain image-contain2">
+                <p>PLAYSTATIONS</p>
+                <button>SHOP NOW</button>
+            </div>
+
+            <div class="image-contain image-contain3">
+                <p>SMARTWATCH</p>
+                <button>SHOP NOW</button>
+            </div>
+
+            <div class="image-contain image-contain4">
+                <p>CONTROL PAD</p>
+                <button>SHOP NOW</button>
+            </div>
+
+            <div class="image-contain image-contain5">
+                <p>SHOES</p>
+                <button>SHOP NOW</button>
+            </div>
+
+            <div class="image-contain image-contain6">
+                <p class="h">SNEAKERS</p>
+                <button>SHOP NOW</button>
+            </div>
+
+            <div class="image-contain image-contain7">
+                <p>CANVERS</p>
+                <button>SHOP NOW</button>
+            </div>
+
+            <div class="image-contain image-contain8">
+                <p>BICYCLES</p>
+                <button>SHOP NOW</button>
+            </div>
+
+            <div class="image-contain image-contain9">
+                <p>BISCUITS</p>
+                <button>SHOP NOW</button>
+            </div>
+
+            <div class="image-contain image-contain10">
+                <p>WINES AND ALCOHOL</p>
+                <button>SHOP NOW</button>
+            </div>
+        </div>
+    </section>
+
     
 </body>
+<script src="../JS/index.js"></script>
 </html>
