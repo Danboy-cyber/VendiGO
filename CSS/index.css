@@ -212,15 +212,15 @@ body{
 }
 
 .slide1 {
-  background-image: url('./pexels-garrettmorrow-1649771.jpg');
+    background-image: url('./pexels-garrettmorrow-1649771.jpg');
 }
 
 .slide2 {
-  background-image: url('./pexels-frojas-5688836.jpg');
+    background-image: url('./pexels-frojas-5688836.jpg');
 }
 
 .slide3 {
-  background-image: url('./pexels-soulful-pizza-2080276-3780681.jpg');
+    background-image: url('./pexels-soulful-pizza-2080276-3780681.jpg');
 }
 
 .carousel-images .slide p {
@@ -352,7 +352,7 @@ body{
 }
 
 .image-contain6{
-    background-image: url('../CSS/istockphoto-2176595900-1024x1024.jpg');
+    background-image: url('./istockphoto-2176595900-1024x1024.jpg');
     height: 300px;
     min-width: 350px;
     background-color: red;
@@ -380,7 +380,7 @@ body{
 }
 
 .image-contain9{
-    background-image: url('./bicycle.jpeg');
+    background-image: url('./biscuit.jpeg');
     height: 300px;
     min-width: 350px;
     background-repeat: no-repeat;
