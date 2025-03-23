@@ -273,6 +273,10 @@ body{
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.section2{
+    margin-bottom: 7rem;
+}
+
 .by h2{
     font-size: 52px;
     font-style: normal;
@@ -285,7 +289,9 @@ body{
 }
 
 .categories{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 1rem;
     align-items: center;
     margin-left: 1rem;
@@ -307,7 +313,7 @@ body{
 .image-contain1{
     background-image: url('./laptop.webp');
     height: 300px;
-    min-width: 350px;
+    width: 430px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
@@ -316,7 +322,7 @@ body{
 .image-contain2{
     background-image: url('./ps5.jpeg');
     height: 300px;
-    min-width: 350px;
+    width: 430px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -326,7 +332,7 @@ body{
 .image-contain3{
     background-image: url('./smartwatch.webp');
     height: 300px;
-    min-width: 350px;
+    width: 430px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
@@ -335,7 +341,7 @@ body{
 .image-contain4{
     background-image: url('./four\ control\ pad.jpg');
     height: 300px;
-    min-width: 350px;
+    width: 430px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
@@ -343,7 +349,7 @@ body{
 
 .image-contain5{
     background-image: url('./shoes.webp');
-    min-width: 350px;
+    width: 430px;
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -354,7 +360,7 @@ body{
 .image-contain6{
     background-image: url('./istockphoto-2176595900-1024x1024.jpg');
     height: 300px;
-    min-width: 350px;
+    width: 430px;
     background-color: red;
     background-repeat: no-repeat;
     background-size: cover;
@@ -364,34 +370,25 @@ body{
 .image-contain7{
     background-image: url('./pexels-amanjakhar-1124466.jpg');
     height: 300px;
-    min-width: 350px;
+    width: 430px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
 
 .image-contain8{
-    background-image: url('./bicycle.jpeg');
+    background-image: url('./biscuit.jpeg');
     height: 300px;
-    min-width: 350px;
+    width: 430px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
 
 .image-contain9{
-    background-image: url('./biscuit.jpeg');
-    height: 300px;
-    min-width: 350px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 8px;
-}
-
-.image-contain10{
     background-image: url('./wine.jpeg');
     height: 300px;
-    min-width: 350px;
+    width: 430px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
@@ -426,6 +423,113 @@ body{
 .image-contain:hover button{
     display: block;
 }
+
+footer{
+    background-color: rgb(25, 25, 25);
+    width: 100%;
+    height: 600px;
+}
+
+.vote{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.mine p{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.mine .same{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.same a{
+    text-decoration: none;  
+    color: white;
+    padding-top: 1rem;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.here h3{
+    color: white;
+    font-size: 18px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+.here .happy{
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: .1rem;
+    padding-bottom: 8.5rem;
+    text-align: center;
+}
+
+.in{
+    padding-left: 4.9rem;
+    padding-bottom: 1.5rem;
+}
+
+.in span{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.in .same{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.fa-facebook{
+    color: white;
+    font-size: 40px;
+    padding-top: 1rem;
+}
+
+.fa-instagram{
+    color: white;
+    font-size: 40px;
+    padding-top: 1rem;
+}
+
+.fa-youtube{
+    color: white;
+    font-size: 40px;
+    padding-top: 1rem;
+}
+
+.fa-tiktok{
+    color: white;
+    font-size: 40px;
+    padding-top: 1rem;
+}
+
+.ok p{
+    border-top: 1px dotted white;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
 
 /* For mobile media query starts */
 @media screen and (max-width: 767px) {
@@ -505,6 +609,146 @@ body{
         margin-bottom: .5rem;
         border-radius: 5px;
     }
+
+    .by h2{
+        font-size: 35px;
+        font-style: normal;
+        color: #131313;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-weight: 400;
+        line-height: 41.6x;
+    }
+
+    .image-contain p{
+        font-size: 20px;
+        padding: 1rem;
+        color: white;
+    }
+
+    .image-contain .h{
+        font-size: 20px;
+        padding: 1rem;
+        color: black;
+    } 
+    
+    .categories{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+        align-items: center;
+        margin: auto 1rem;
+    }
+
+    .image-contain1{
+        background-image: url('./laptop.webp');
+        height: 300px;
+        width: 270px;
+        margin: .5rem auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+    
+    .image-contain2{
+        background-image: url('./ps5.jpeg');
+        height: 300px;
+        width: 270px;
+        margin: .5rem auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px;
+    }
+    
+    .image-contain3{
+        background-image: url('./smartwatch.webp');
+        height: 300px;
+        width: 270px;
+        margin: .5rem auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+    
+    .image-contain4{
+        background-image: url('./four\ control\ pad.jpg');
+        height: 300px;
+        width: 270px;
+        margin: .5rem auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+    
+    .image-contain5{
+        background-image: url('./shoes.webp');
+        width: 270px;
+        margin: .5rem auto;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px;
+    }
+    
+    .image-contain6{
+        background-image: url('./istockphoto-2176595900-1024x1024.jpg');
+        height: 300px;
+        width: 270px;
+        margin: .5rem auto;
+        background-color: red;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+    
+    .image-contain7{
+        background-image: url('./pexels-amanjakhar-1124466.jpg');
+        height: 300px;
+        width: 270px;
+        margin: .5rem auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+    
+    .image-contain8{
+        background-image: url('./biscuit.jpeg');
+        height: 300px;
+        width: 270px;
+        margin: .5rem auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+    
+    .image-contain9{
+        background-image: url('./wine.jpeg');
+        height: 300px;
+        width: 270px;
+        margin: .5rem auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+
+    .vote{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+    
+
+    footer{
+        background-color: rgb(25, 25, 25);
+        width: 100%;
+        height: 1000px;
+    }
 }
 /* For mobile media query ends*/
 
@@ -529,6 +773,116 @@ body{
         align-items: center;
         padding: 1rem;
         margin-top: 1.5rem;
+    }
+
+    .categories{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+        align-items: center;
+        margin: auto 1rem;
+    }
+
+    .image-contain1{
+        background-image: url('./laptop.webp');
+        height: 300px;
+        width: 90%;
+        margin: .5rem auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+    
+    .image-contain2{
+        background-image: url('./ps5.jpeg');
+        height: 300px;
+        width: 90%;
+        margin: .5rem auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px;
+    }
+    
+    .image-contain3{
+        background-image: url('./smartwatch.webp');
+        height: 300px;
+        width: 90%;
+        margin: .5rem auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+    
+    .image-contain4{
+        background-image: url('./four\ control\ pad.jpg');
+        height: 300px;
+        width: 90%;
+        margin: .5rem auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+    
+    .image-contain5{
+        background-image: url('./shoes.webp');
+        width: 90%;
+        margin: .5rem auto;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px;
+    }
+    
+    .image-contain6{
+        background-image: url('./istockphoto-2176595900-1024x1024.jpg');
+        height: 300px;
+        width: 90%;
+        margin: .5rem auto;
+        background-color: red;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+    
+    .image-contain7{
+        background-image: url('./pexels-amanjakhar-1124466.jpg');
+        height: 300px;
+        width: 90%;
+        margin: .5rem auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+    
+    .image-contain8{
+        display: none;
+    }
+    
+    .image-contain9{
+        background-image: url('./wine.jpeg');
+        height: 300px;
+        width: 90%;
+        margin: .5rem auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+
+    footer{
+        background-color: rgb(25, 25, 25);
+        width: 100%;
+        min-height: 1300px;
+    }
+
+    .vote{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-items: center;
+        padding-bottom: 2rem;
     }
 }
 /* For tablets media query ends */
