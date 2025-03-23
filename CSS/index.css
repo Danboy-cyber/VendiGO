@@ -610,6 +610,11 @@ footer{
         border-radius: 5px;
     }
 
+    .section2{
+        margin-bottom: .5rem;
+    }
+    
+
     .by h2{
         font-size: 35px;
         font-style: normal;
@@ -740,7 +745,7 @@ footer{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         align-items: center;
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
     }
     
 
@@ -773,6 +778,10 @@ footer{
         align-items: center;
         padding: 1rem;
         margin-top: 1.5rem;
+    }
+
+    .section2{
+        margin-bottom: .1rem;
     }
 
     .categories{

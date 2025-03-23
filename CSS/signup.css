@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #42151D;
+}
+
+.kick{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.kick img{
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.kick p{
+    width: 40px;
+    font-size: 20px;
+    font-weight: 100;
+    /* text-align: center; */
+}
+
+.altogether1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.brief{
+   background-color: white;
+   width: 500px; 
+   /* margin: .5rem auto; */
+   border-radius: 8px;
+}
+
+.brief h2{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.meat{
+    display: flex;
+    flex-direction: column;
+}
+
+.meat label{
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    padding: .5rem;
+    padding-left: 2.8rem;
+}
+
+.meat input{
+    width: 400px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px dotted black;
+    margin-left: 2.5rem;
+    padding-left: 1rem;
+}
+
+.pick button{
+    width: 80%;
+    height: 50px;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: .5rem;
+    background-color: red;
+}
+
+.dies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding-bottom: .5rem;
+}
+
+.dies p{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.dies a{
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: none;
+    color: black;
+}
+
+.video img{
+    height: 500px;
+    background-color: none;
+    border: none;
+}
+
+@media screen and (max-width: 767px){
+    .altogether1{
+        flex-direction: column;
+    }
+
+    .brief{
+        background-color: white;
+        width: 95%; 
+        /* margin: .5rem auto; */
+        border-radius: 8px;
+    }
+
+        
+    .meat label{
+        font-size: 18px;
+        font-weight: 700;
+        padding-bottom: 1rem;
+        padding: .5rem;
+        padding-left: 1.5rem;
+}
+
+    .meat input{
+        width: 85%;
+        height: 45px;
+        border-radius: 5px;
+        border: 1px dotted black;
+        margin-left: 1rem;
+        padding-left: 1rem;
+    }
+
+    .pick button{
+        width: 80%;
+        height: 50px;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        border-radius: 8px;
+        border: none;
+        margin-bottom: .5rem;
+        background-color: red;
+    }
+
+    .video{
+        display: none;    
+    }
+}
+
+@media screen and (max-width: 1030px){
+    .altogether1{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

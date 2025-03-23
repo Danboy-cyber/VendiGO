@@ -27,3 +27,26 @@ nextButton.addEventListener('click', () => {
   currentIndex = (currentIndex < slides.length - 1) ? currentIndex + 1 : 0;
   updateCarousel();
 });
+
+
+const searchInput = document.getElementById("search-products");
+const products = document.querySelectorAll("#product-list .image-contain");
+const carousel = document.querySelector(".carousel");
+
+searchInput.addEventListener("input", function () {
+    const filterText = this.value.toLowerCase();
+    if (filterText.trim() === "") {
+        carousel.style.display = "";
+    } else {
+        carousel.style.display = "none"; 
+    }
+
+    products.forEach(product => {
+        const productName = product.querySelector("p").textContent.toLowerCase();
+        if (productName.includes(filterText)) {
+            product.style.display = "";
+        } else {
+            product.style.display = "none";
+        }
+    });
+});     
