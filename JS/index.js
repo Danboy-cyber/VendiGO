@@ -49,4 +49,8 @@ searchInput.addEventListener("input", function () {
             product.style.display = "none";
         }
     });
-});     
+}); 
+
+function signUp() {
+    location.href = "./HTML/signup.html"
+}

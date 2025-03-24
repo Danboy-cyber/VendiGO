@@ -11,10 +11,11 @@ body{
 .kick{
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     gap: .5rem;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
+    padding-left: 14rem;
 }
 
 .kick img{
