@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="/VendiGo images/VendiGo logo.webp" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./CSS/index.css">
-    <title>VendiGo : Where all technologies are sold</title>
+    <title>VendiGo : Where products are sold cheap</title>
 </head>
 <body>
     <!-- Header starts -->
@@ -36,10 +36,7 @@
             </div>
 
             <div class="images">
-                <a href="" class="image">
-                    <img src="/VendiGo images/VendiGo logo.webp" alt="" srcset="">
-                </a>
-                <p><b style="font-weight: 500;">VendiGo</b> MART</p>
+                <a href=""><b style="font-weight: 500; font-size: 25px;">VendiGo</b> MART</a>
             </div>
 
             <div class="Hotline">
@@ -48,11 +45,11 @@
                 <div class="cart-icon">
                     <i class="fa-solid fa-cart-plus"></i>
                 </div>
-
+               
                 <div class="buttons">
-                    <button class="but">Login</button>
+                    <button class="but" onclick="signIn()">Login</button>
                     <span style="color: white;">|</span>
-                    <button class="but" onclick="signUp()">Sign In</button>
+                    <button class="but" onclick="signUp()">Sign Up</button>
                 </div>
             </div>
         </div>
@@ -100,42 +97,223 @@
             <h2>Shop By Category</h2>
         </div>
         <div class="categories" id="product-list">
-            <div class="image-contain image-contain1">
-                <p>LAPTOP</p>
-                <button>SHOP NOW</button>
+            <div class="image-contain">
+                <img src="./VendiGo images/laptop.webp" alt="">
+                <p>Hp stylish, silver laptop with trackpad</p>
+                <div class="hip">
+                    <span>₦350,000</span>
+                    <button>Add to cart</button>
+                </div>
             </div>
-            <div class="image-contain image-contain2">
-                <p>PLAYSTATIONS</p>
-                <button>SHOP NOW</button>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/ps5.jpeg" alt="">
+                <p> PlayStation 5 Pro with its controller.</p>
+                <div class="hip">
+                    <span>₦230, 000</span>
+                    <button>Add to cart</button>
+                </div>
             </div>
-            <div class="image-contain image-contain3">
-                <p>SMARTWATCH</p>
-                <button>SHOP NOW</button>
+            
+            <div class="image-contain">
+                <img src="./VendiGo images/smartwatch.webp" alt="">
+                <p>Modern & Simple Analog-style Smartwatch </p>
+                <div class="hip">
+                    <span>₦100, 000</span>
+                    <button>Add to cart</button>
+                </div>
             </div>
-            <div class="image-contain image-contain4">
-                <p>CONTROL PAD</p>
-                <button>SHOP NOW</button>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/four control pad.jpg" alt="">
+                <p>Modern & Sleek Gaming Controllers</p>
+                <div class="hip">
+                    <span>₦102,500</span>
+                    <button>Add to cart</button>
+                </div>
             </div>
-            <div class="image-contain image-contain5">
-                <p>SHOES</p>
-                <button>SHOP NOW</button>
+            
+            <div class="image-contain">
+                <img src="./VendiGo images/shoes.webp" alt="">
+                <p>Bold and Iconic Dr. Martens Yellow Boot</p>
+                <div class="hip">
+                    <span>₦95,000</span>
+                    <button>Add to cart</button>
+                </div>
             </div>
-            <div class="image-contain image-contain6">
-                <p>SNEAKERS</p>
-                <button>SHOP NOW</button>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/istockphoto-2176595900-1024x1024.jpg" alt="">
+                <p>Stylish Suede Sneakers For Men and Women</p>
+                <div class="hip">
+                    <span>₦102,000</span>
+                    <button>Add to cart</button>
+                </div>
             </div>
-            <div class="image-contain image-contain7">
-                <p>CANVERS</p>
-                <button>SHOP NOW</button>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/pexels-amanjakhar-1124466.jpg" alt="">
+                <p>Lightweight & Stylish Nike Running Shoes</p>
+                <div class="hip">
+                    <span>₦80,000</span>
+                    <button>Add to cart</button>
+                </div>
             </div>
-            <div class="image-contain image-contain8">
-                <p>BISCUITS</p>
-                <button>SHOP NOW</button>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/biscuit.jpeg" alt="">
+                <p>Crispy & Golden Classic Butter Cookies</p>
+                <div class="hip">
+                    <span>₦5,250</span>
+                    <button>Add to cart</button>
+                </div>
             </div>
-            <div class="image-contain image-contain9">
-                <p>WINES AND ALCOHOL</p>
-                <button>SHOP NOW</button>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/wine.jpeg" alt="">
+                <p>Assorted Premium Wine and Beverage</p>
+                <div class="hip">
+                    <span>₦10,000</span>
+                    <button>Add to cart</button>
+                </div>
             </div>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/bicycle.jpeg" alt="">
+                <p>Sleek and Timeless Vintage Road Bicycle</p>
+                <div class="hip">
+                    <span>₦200,000</span>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/beads.webp" alt="">
+                <p>Stylish Black Multilayer Bracelet Set</p>
+                <div class="hip">
+                    <span>₦10,000</span>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/airpod.jpg" alt="">
+                <p>Tecno Buds Wireless Earphones</p>
+                <div class="hip">
+                    <span>₦15,900</span>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/men woven fabric.webp" alt="">
+                <p>New Men's 2pcs Set of Woven Fabric</p>
+                <div class="hip">
+                    <span>₦21,910</span>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/soccer boot.webp" alt="">
+                <p>Men's High-Performance Soccer Cleats</p>
+                <div class="hip">
+                    <span>₦17,959</span>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/touch airpod.webp" alt="">
+                <p>Men's High-Performance Soccer Cleats</p>
+                <div class="hip">
+                    <span>₦10,959</span>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/transparent aipod.webp" alt="">
+                <p>Wireless Earbuds Transparent TWS Silicone </p>
+                <div class="hip">
+                    <span>₦3,873</span>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/wireless smartwatch.webp" alt="">
+                <p>A Brand New Smartwatch With Wireless Calling & Receiving</p>
+                <div class="hip">
+                    <span>₦11,978</span>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/mainialun men sneakers.webp" alt="">
+                <p>MAINALUN Men's Color Block Casual Sneakers</p>
+                <div class="hip">
+                    <span>₦21,834</span>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/black oxford.webp" alt="">
+                <p>Men'S Classic Black Oxfords, Casual Lace-Up Shoe</p>
+                <div class="hip">
+                    <span>₦26,239</span>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/earpud.webp
+                " alt="">
+                <p>Wireless earbuds with universal phone control</p>
+                <div class="hip">
+                    <span>₦3,307</span>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/wireless speaker.jpg" alt="">
+                <p>Portable Wireless Speaker with Loud Microphone</p>
+                <div class="hip">
+                    <span>₦46,807</span>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/black business.webp" alt="">
+                <p>Men's Classic Black Business Casual Dress Shoes</p>
+                <div class="hip">
+                    <span>₦42,755</span>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/fg soccer boot.webp" alt="">
+                <p>Men's FG Football Boots, Professional Outdoor</p>
+                <div class="hip">
+                    <span>₦19,784</span>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+
+            <div class="image-contain">
+                <img src="./VendiGo images/soft handbag.webp" alt="">
+                <p>Soft Handbag For Men, Envelope Wrist Bag For Daily Commute</p>
+                <div class="hip">
+                    <span>₦19,784</span>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+
         </div>
     </section>
     <!-- section2 ends -->

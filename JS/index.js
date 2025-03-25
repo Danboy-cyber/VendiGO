@@ -1,3 +1,13 @@
+const searchInput = document.getElementById("search-products");
+const products = document.querySelectorAll("#product-list .image-contain");
+const carousel = document.querySelector(".carousel");
+const carouselImages = document.querySelector('.carousel-images');
+const slides = document.querySelectorAll('.carousel-images .slide');
+const prevButton = document.querySelector('.carousel-button.left');
+const nextButton = document.querySelector('.carousel-button.right');
+
+let currentIndex = 0;
+
 function showDropdown() {
     document.getElementById("dropdown").style.display = "block";
 }
@@ -5,13 +15,6 @@ function showDropdown() {
 function hideDropdown() {
     document.getElementById("dropdown").style.display = "none";
 }
-
-const carouselImages = document.querySelector('.carousel-images');
-const slides = document.querySelectorAll('.carousel-images .slide');
-const prevButton = document.querySelector('.carousel-button.left');
-const nextButton = document.querySelector('.carousel-button.right');
-
-let currentIndex = 0;
 
 function updateCarousel() {
   const offset = -currentIndex * 100;
@@ -27,11 +30,6 @@ nextButton.addEventListener('click', () => {
   currentIndex = (currentIndex < slides.length - 1) ? currentIndex + 1 : 0;
   updateCarousel();
 });
-
-
-const searchInput = document.getElementById("search-products");
-const products = document.querySelectorAll("#product-list .image-contain");
-const carousel = document.querySelector(".carousel");
 
 searchInput.addEventListener("input", function () {
     const filterText = this.value.toLowerCase();
@@ -53,4 +51,8 @@ searchInput.addEventListener("input", function () {
 
 function signUp() {
     location.href = "./HTML/signup.html"
+}
+
+function signIn() {
+    location.href = "./HTML/login.html"
 }

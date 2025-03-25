@@ -3,51 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/VendiGo images/VendiGo logo.webp" type="image/x-icon">
-    <link rel="stylesheet" href="../CSS/signup.css">
-    <title>Kindly Sign up : Go for VendiGo Mart</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+    <link rel="shortcut icon" href="../VendiGo images/VendiGo logo.webp" type="image/x-icon">
+    <title>Login into your account and start shopping</title>
 </head>
 <body>
     <section class="section1">
         <div class="kick">
             <a href="../index.html">
-                <img src="/VendiGo images/VendiGo logo.webp" alt="">
+                <img src="../VendiGo images/VendiGo logo.webp" alt="">
             </a>
-            <p style="text-decoration: none;"><b style="font-weight: 500;">VendiGo</b> MART</p>
+            <p><b style="font-weight: 500;">VendiGo</b> MART</p>
         </div>
 
         <div class="altogether1">
             <div class="brief">
-                <h2>Create Account</h2>
-                <div class="meat">
-                    <label for="first">Firstname</label>
-                    <input type="text" placeholder="Enter your first name" id="first">
-                </div>
-    
-                <div class="meat">
-                    <label for="first">Lastname</label>
-                    <input type="text" placeholder="Enter your last name" id="last">
-                </div>
-    
+                <h2>Log Into Your Account</h2>
                 <div class="meat">
                     <label for="email">Email</label>
                     <input type="email" name="" placeholder="Enter your email" id="email">
-                    <p id="yeap"></p>
                 </div>
     
                 <div class="meat">
                     <label for="password">Password</label>
-                    <input type="password" name="" placeholder="Enter your password" id="password">
+                    <input type="password" name="" placeholder="Enter your password" id="password" minlength="6">
                     <p id="para"></p>
                 </div>
     
                 <div class="pick">
-                    <button id="signUpBTN">Sign up</button>
+                    <button id="signInBTN">Sign In</button>
                 </div>
 
                 <div class="dies">
-                    <p>Already have an account?</p>
-                    <a href="./login.html">Sign in</a>
+                    <p>Not have any account?</p>
+                    <a href="./signup.html">Sign up</a>
                 </div>
 
                 <div class="ok">
@@ -58,10 +47,11 @@
             <div class="video">
                 <img src="/VendiGo images/beside video.gif" alt="">
             </div>
+
         </div>
         <!--  -->
    
     </section>
-    <script src="/JS/signup.js"></script>
 </body>
+<script src="/JS/login.js"></script>
 </html>
