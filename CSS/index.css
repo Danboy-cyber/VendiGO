@@ -263,6 +263,35 @@ body{
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.icon2{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.image{
+    background-color: black;
+    color: gold;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 0;
+    border: 4rem auto;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.image .fa-chevron-up{
+    font-size: 30px;
+}
+
 .section2{
     margin-bottom: 7rem;
 }
@@ -611,9 +640,7 @@ footer{
         display: flex;
         gap: 1rem;
         align-items: center;
-        justify-content: space-around;
-        width: 100%;
-        margin-bottom: 1rem;
+        flex-direction: column;
     }
     
     .hip span{

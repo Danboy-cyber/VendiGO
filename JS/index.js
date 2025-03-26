@@ -5,7 +5,7 @@ const carouselImages = document.querySelector('.carousel-images');
 const slides = document.querySelectorAll('.carousel-images .slide');
 const prevButton = document.querySelector('.carousel-button.left');
 const nextButton = document.querySelector('.carousel-button.right');
-
+image.addEventListener("click", ScrollUp)
 let currentIndex = 0;
 
 function showDropdown() {
@@ -55,4 +55,11 @@ function signUp() {
 
 function signIn() {
     location.href = "./HTML/login.html"
+}
+
+function ScrollUp() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });   
 }
