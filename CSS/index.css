@@ -202,15 +202,15 @@ body{
 }
 
 .slide1 {
-    background-image: url('/pexels-garrettmorrow-1649771.jpg');
+    background-image: url('../pexels-garrettmorrow-1649771.jpg');
 }
 
 .slide2 {
-    background-image: url('/pexels-frojas-5688836.jpg');
+    background-image: url('../pexels-frojas-5688836.jpg');
 }
 
 .slide3 {
-    background-image: url('/pexels-soulful-pizza-2080276-3780681.jpg');
+    background-image: url('../pexels-soulful-pizza-2080276-3780681.jpg');
 }
 
 .carousel-images .slide p {
