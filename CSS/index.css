@@ -562,31 +562,25 @@ footer{
         line-height: 41.6x;
     }
 
-    .image-contain p{
-        font-size: 20px;
-        padding: 1rem;
-        color: white;
-    }
-
-    .image-contain .h{
-        font-size: 20px;
-        padding: 1rem;
-        color: black;
-    } 
-    
     .categories{
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr !important;
+        grid-template-rows: 1fr 1fr 1fr 1fr !important;
         gap: 1rem;
         align-items: center;
-        margin: auto 1rem;
+        margin-left: 1rem;
+        /* overflow-x: scroll; */
     }
 
+    /* .categories::-webkit-scrollbar{
+        display: none;
+    } */
+    
     .image-contain{
-        width: 100%;
+        background-color:white;
+        min-width: 50%;
+        border-radius: 10px;
         border: none;
-        background-color: transparent;
     }
     
     .image-contain:hover{
@@ -597,47 +591,48 @@ footer{
         display: block;
         width: 100%;
         height: 280px;
-        border-radius: 10px;
+        border-radius: 10px 10px 0px 0px;
         object-fit: cover;
     }
     
     .image-contain p{
-        font-size: 20px;
+        font-size: 15px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: 100;
         width: 90%;
         margin-bottom: 1rem;
         text-align: center;
         padding-top: .5rem;
-        padding-left: .5rem;
+        /* padding-left: .5rem; */
         color: black;
     }
     
     .hip{
         display: flex;
-        gap: 2rem;
+        gap: 1rem;
         align-items: center;
         justify-content: space-around;
-        width: 90%;
+        width: 100%;
         margin-bottom: 1rem;
     }
     
     .hip span{
-        font-size: 25px;
+        font-size: 18px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: 100;
         color: black;
     }
     
     .hip button{
-        width: 150px;
+        width: 80px;
         height: 40px;
         border: none;
         border-radius: 5px;
         background-color: blue;
-        font-size: 18px;
+        font-size: 13px;
         font-weight: 100;
         color: white;
+        margin-left: 1rem;
         /* margin-top: 1rem; */
     }
     
@@ -680,98 +675,11 @@ footer{
 
     .categories{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         gap: 1rem;
         align-items: center;
         margin: auto 1rem;
-    }
-
-    .image-contain1{
-        background-image: url('./laptop.webp');
-        height: 300px;
-        width: 90%;
-        margin: .5rem auto;
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 8px;
-    }
-    
-    .image-contain2{
-        background-image: url('./ps5.jpeg');
-        height: 300px;
-        width: 90%;
-        margin: .5rem auto;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        border-radius: 8px;
-    }
-    
-    .image-contain3{
-        background-image: url('./smartwatch.webp');
-        height: 300px;
-        width: 90%;
-        margin: .5rem auto;
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 8px;
-    }
-    
-    .image-contain4{
-        background-image: url('./four\ control\ pad.jpg');
-        height: 300px;
-        width: 90%;
-        margin: .5rem auto;
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 8px;
-    }
-    
-    .image-contain5{
-        background-image: url('./shoes.webp');
-        width: 90%;
-        margin: .5rem auto;
-        height: 300px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        border-radius: 8px;
-    }
-    
-    .image-contain6{
-        background-image: url('./istockphoto-2176595900-1024x1024.jpg');
-        height: 300px;
-        width: 90%;
-        margin: .5rem auto;
-        background-color: red;
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 8px;
-    }
-    
-    .image-contain7{
-        background-image: url('./pexels-amanjakhar-1124466.jpg');
-        height: 300px;
-        width: 90%;
-        margin: .5rem auto;
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 8px;
-    }
-    
-    .image-contain8{
-        display: none;
-    }
-    
-    .image-contain9{
-        background-image: url('./wine.jpeg');
-        height: 300px;
-        width: 90%;
-        margin: .5rem auto;
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 8px;
     }
 
     .vote{
