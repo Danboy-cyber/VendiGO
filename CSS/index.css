@@ -201,17 +201,17 @@ body{
 }
 
 .carousel-images {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-  height: 470px;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 470px;
 }
 
 .carousel-images .slide {
-  width: 100%;
-  flex-shrink: 0;
-  height: 470px;
-  background-size: cover;
-  position: relative;
+    width: 100%;
+    flex-shrink: 0;
+    height: 470px;
+    background-size: cover;
+    position: relative;
 }
 
 .slide1 {
@@ -227,14 +227,14 @@ body{
 }
 
 .carousel-images .slide p {
-  position: absolute;
-  bottom: 50%;
-  left: 33%;
-  color: white;
-  font-size: 25px;
-  background-color: transparent;
-  padding: 3rem 5rem 4rem 5rem;
-  border-radius: 5px;
+    position: absolute;
+    bottom: 50%;
+    left: 33%;
+    color: white;
+    font-size: 25px;
+    background-color: transparent;
+    padding: 3rem 5rem 4rem 5rem;
+    border-radius: 5px;
 }
 
 .carousel-images .slide button{
@@ -251,25 +251,25 @@ body{
 }
 
 .carousel-button {
-  position: absolute;
-  top: 30%;
-  transform: translateY(-100%);
-  background-color: rgba(0, 0, 0, 0.5);
-  border: none;
-  color: white;
-  font-size: 2rem;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 50%;
-  z-index: 1000;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-100%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 1000;
 }
 
 .carousel-button.left {
-  left: 20px;
+    left: 20px;
 }
 
 .carousel-button.right {
-  right: 20px;
+    right: 20px;
 }
 
 .carousel-button:hover {

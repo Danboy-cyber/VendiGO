@@ -38,21 +38,20 @@ body{
     font-size: 15px;
 }
 
-.images{
+/* .images{
     display: flex;
     align-items: center;
     gap: 1rem;
-}
+} */
 
-.sure img{
+/* .sure img{
     width: 60px;
     height: 60px;
     margin-top: .5rem;
     border-radius: 5px;
-}
+} */
 
 .images a{
-    width: 40px;
     font-size: 20px;
     font-weight: 100;
     text-decoration: none;
@@ -160,7 +159,359 @@ body{
     text-align: center;
 }
 
+.icon2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
 
+.image{
+    background-color: black;
+    color: gold;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 0;
+    border: 4rem auto;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.image .fa-chevron-up{
+    font-size: 30px;
+}
+
+.altogether2{
+    background-color: white; 
+    height: fit-content;
+    padding-top: 5.5rem;
+}
+
+.altogether2 h2{
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 30px;
+    font-weight: 100;
+    color: #373F48;
+}
+
+.abuse p{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 20px;
+    font-weight: 100;
+    /* color: orange; */
+}
+
+.altogether3{
+    height: fit-content;
+    background-color: orange;
+}
+
+.altogether3 h2{
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+}
+
+.appeal .abi{
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 2rem;
+    padding-bottom: 1.5rem;
+    /* color: white; */
+}
+
+.abi span{
+    margin-left: 2.5rem;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.altogether4{
+    background-color: black;
+    color: white;
+    height: fit-content;
+}
+
+.altogether4 h2{
+    text-align: center;
+    padding: 1.5rem;
+    padding-bottom: 2rem;
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+}
+
+.appeal2{
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.uh{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.uh img{
+    height: 100px;
+    width: 90px;
+    padding-bottom: .5rem;
+    object-fit: cover;
+}
+
+.yeap{
+    padding-bottom: 1.5rem;
+}
+
+.yeap h3{
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.yeap p{
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.altogether5{
+    background-color: white;
+    color: black;
+    height: fit-content;
+}
+
+.altogether5 h2{
+    text-align: center;
+    padding: 1.5rem;
+    padding-bottom: 2rem;
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+}
+
+.appeal3{
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.uh2{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.uh2 img{
+    height: 100px;
+    width: 90px;
+    padding-bottom: .5rem;
+    object-fit: cover;
+}
+
+.yeap2{
+    padding-bottom: 1.5rem;
+}
+
+.yeap2 h3{
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.yeap2 p{
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.accordion {
+    width: 100%;
+    overflow: hidden;
+    background-color: orange;
+}
+
+.pan h1{
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 1rem; 
+    text-align: center;
+    color: white;
+}
+
+.accordion-item{
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: orange;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.accordion-header {
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+}
+.accordion-header i{
+    transition: 3s ease-in-out;
+}
+.accordion-header:hover i{
+    rotate: 180deg;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s ease-out;
+    padding: 0 15px;
+}
+
+.accordion-content p {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.accordion-item.active .accordion-content {
+    max-height: 150px; 
+    padding: 10px 15px;
+}
+
+
+footer{
+    background-color: rgb(25, 25, 25);
+    width: 100%;
+    height: fit-content;
+}
+
+.vote{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.mine p{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.mine .same{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.same a{
+    text-decoration: none;  
+    color: white;
+    padding-top: 1rem;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.here h3{
+    color: white;
+    font-size: 18px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+.here .happy{
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: .1rem;
+    padding-bottom: 8.5rem;
+    text-align: center;
+}
+
+.in{
+    padding-left: 4.9rem;
+    padding-bottom: 1.5rem;
+}
+
+.in span{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.in .same{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.fa-facebook{
+    color: white;
+    font-size: 40px;
+    padding-top: 1rem;
+}
+
+.fa-instagram{
+    color: white;
+    font-size: 40px;
+    padding-top: 1rem;
+}
+
+.fa-youtube{
+    color: white;
+    font-size: 40px;
+    padding-top: 1rem;
+}
+
+.fa-tiktok{
+    color: white;
+    font-size: 40px;
+    padding-top: 1rem;
+}
+
+.ok p{
+    border-top: 1px dotted white;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
 
 /* For mobile media query starts */
 @media screen and (max-width: 767px) {
@@ -197,5 +548,163 @@ body{
     .drop{
         display: block;
     }
+
+    .altogether2 h2{
+        text-align: center;
+        padding-bottom: 1rem;
+        font-size: 25px;
+        font-weight: 100;
+        color: #373F48;
+    }
+
+    .abuse p{
+        text-align: center;
+        padding-bottom: 2rem;
+        font-size: 16px;
+        font-weight: 300;
+        /* color: orange; */
+    }
+
+    
+    .appeal .abi{
+        font-size: 18px;
+        font-weight: 300;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        padding-bottom: 1.5rem;
+        /* color: white; */
+    }
+
+    .abi span{
+        padding-left: .5rem;
+    }
+
+    .image{
+        background-color: black;
+        color: gold;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: relative;
+        bottom: 0;
+        border: 4rem auto;     
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 1rem 1rem 0rem;
+    }
+    
+    .image .fa-chevron-up{
+        font-size: 20px;
+    }
+
+    .altogether4 h2{
+        font-size: 30px;
+        color: white;
+        font-weight: 700;
+    }
+    
+
+    .appeal2{
+        display: flex;
+        gap: 2.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .uh{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .uh img{
+        padding-bottom: .5rem;
+        width: 90%;
+        height: 200px;
+    }
+
+    .yeap h3{
+        text-align: center;
+    }
+
+    .yeap p{
+        text-align: center;
+    }
+
+    .altogether5 h2{
+        font-size: 30px;
+        color: white;
+        font-weight: 700;
+    }
+    
+
+    .appeal3{
+        display: flex;
+        gap: 2.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .uh2{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .uh2 img{
+        padding-bottom: .5rem;
+        width: 90%;
+        height: 200px;
+    }
+
+    .yeap2 h3{
+        text-align: center;
+    }
+
+    .yeap2 p{
+        text-align: center;
+    }
+
+    .pan h1{
+        font-size: 17px;
+        font-weight: 600;
+        font-style: normal;
+        font-family: sans-serif;
+    }
+
+    .accordion-header{
+        font-size: 14px;
+    }
+
+      
+    .vote{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+
 }
 /* For mobile media query ends*/
+
+/* For tablets media query starts */
+@media screen and (max-width: 1000px) {
+    .ptags{
+        display: none;
+    }
+
+    .drop{
+        display: block;
+    }
+}
+/* For tablets media query ends */
+
+
