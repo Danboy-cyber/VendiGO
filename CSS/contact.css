@@ -357,19 +357,19 @@ body{
 }
 
 .fa-facebook{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .fa-instagram{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .fa-tiktok{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .fa-youtube{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .just p{
@@ -510,25 +510,25 @@ footer{
 }
 
 .fa-facebook{
-    color: white;
+    color: orange;
     font-size: 40px;
     padding-top: 1rem;
 }
 
 .fa-instagram{
-    color: white;
+    color: orange;
     font-size: 40px;
     padding-top: 1rem;
 }
 
 .fa-youtube{
-    color: white;
+    color: orange;
     font-size: 40px;
     padding-top: 1rem;
 }
 
 .fa-tiktok{
-    color: white;
+    color: orange;
     font-size: 40px;
     padding-top: 1rem;
 }
