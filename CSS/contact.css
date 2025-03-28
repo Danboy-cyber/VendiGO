@@ -38,20 +38,21 @@ body{
     font-size: 15px;
 }
 
-/* .images{
+.images{
     display: flex;
     align-items: center;
     gap: 1rem;
-} */
+}
 
-/* .sure img{
+.sure img{
     width: 60px;
     height: 60px;
     margin-top: .5rem;
     border-radius: 5px;
-} */
+}
 
 .images a{
+    width: 40px;
     font-size: 20px;
     font-weight: 100;
     text-decoration: none;
@@ -178,7 +179,7 @@ body{
     border-radius: 50%;
     position: relative;
     bottom: 0;
-    border: 4rem auto;     
+    border: .5rem auto;     
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,71 +190,213 @@ body{
     font-size: 30px;
 }
 
-.altogether2{
-    background-color: white; 
-    height: fit-content;
-    padding-top: 5.5rem;
+.what{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.altogether2 h2{
-    text-align: center;
-    padding-bottom: 1rem;
-    font-size: 30px;
-    font-weight: 100;
-    color: #373F48;
-}
-
-.abuse p{
-    text-align: center;
-    padding-bottom: 2rem;
+.what p{
+    width: 250px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
     font-size: 20px;
-    font-weight: 100;
-    /* color: orange; */
+    font-weight: 200;
+    text-align: center; 
+}
+
+.whatsApp{
+    position: relative;
+    bottom: 0;
+}
+
+.whatsApp img{
+    width: 100px;
+    height: 100px;
+}
+
+.what p{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.altogether2{
+    background-color: white;
+    padding-top: 7rem;
+    margin-bottom: 3rem;  
+}
+
+.appeal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+.meat h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: orange;
+    padding-bottom: 1.5rem;
+}
+
+.meat p{
+    font-size: 18px;
+    font-weight: 200;
+    width: 30rem;
+    padding-bottom: 1rem;
+}
+
+.ass img{
+    padding-right: 1rem;
+    width: 500px;
+    height: 400px;
 }
 
 .altogether3{
-    height: fit-content;
-    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3rem;
 }
 
-.altogether3 h2{
-    text-align: center;
-    padding: 1.5rem;
-    font-size: 35px;
-    color: white;
-    font-weight: 700;
+.appeal2{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 45%;
+    border-radius: 8px;
+    gap: 1rem;
 }
 
-.appeal .abi{
-    font-size: 18px;
-    font-weight: 300;
-    padding-left: 2rem;
-    padding-bottom: 1.5rem;
-    /* color: white; */
+.kob{
+    background-color: black;
+    color: gold;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 0;
+    border: .5rem auto;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem 1rem 0rem;
 }
 
-.abi span{
-    margin-left: 2.5rem;
+.kob img{
+    width: 80px;
+    height: 80px;
+    padding-top: .8rem;
+}
+
+.abuse h2{
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 200;
+    padding-bottom: .5rem;
+    padding-top: 1rem;
+}
+
+.doe{
+    padding-bottom: 1rem;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.check p{
+    font-size: 18px;
+    font-weight: 200;
+    padding-bottom: .5rem;
+}
+
+.check span{
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: .5rem;
+}
+
+.kobe img{
+    width: 70px;
+    height: 70px;
+    padding-top: .8rem;
 }
 
 .altogether4{
-    background-color: black;
-    color: white;
-    height: fit-content;
+    background-color: white;
+    margin-bottom: 3rem;
 }
 
 .altogether4 h2{
+    font-size: 35px;
+    font-style: normal;
+    color: #131313;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-weight: 400;
+    line-height: 41.6x;
+}
+
+.appeal3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2rem;
+}
+
+.kob2{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 15rem;
+}
+
+.fa-facebook{
+    font-size: 50px;
+}
+
+.fa-instagram{
+    font-size: 50px;
+}
+
+.fa-tiktok{
+    font-size: 50px;
+}
+
+.fa-youtube{
+    font-size: 50px;
+}
+
+.just p{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.just span{
+    font-size: 20px;
+}
+
+.altogether5{
+    background-color: white;
+    color: black;
+    height: fit-content;
+}
+
+.altogether5 h2{
     text-align: center;
     padding: 1.5rem;
     padding-bottom: 2rem;
     font-size: 35px;
-    color: white;
+    color: orange;
     font-weight: 700;
 }
 
-.appeal2{
+.appeal4{
     display: grid;
     gap: 2.5rem;
     grid-template-columns: 1fr 1fr;
@@ -290,122 +433,6 @@ body{
 .yeap p{
     font-size: 17px;
     font-weight: 100;
-}
-
-.altogether5{
-    background-color: white;
-    color: black;
-    height: fit-content;
-}
-
-.altogether5 h2{
-    text-align: center;
-    padding: 1.5rem;
-    padding-bottom: 2rem;
-    font-size: 35px;
-    color: black;
-    font-weight: 700;
-}
-
-.appeal3{
-    display: grid;
-    gap: 2.5rem;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-}
-
-.uh2{
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
-}
-
-.uh2 img{
-    height: 100px;
-    width: 90px;
-    padding-bottom: .5rem;
-    object-fit: cover;
-}
-
-.yeap2{
-    padding-bottom: 1.5rem;
-}
-
-.yeap2 h3{
-    font-size: 23px;
-    font-weight: 400;
-}
-
-.yeap2 p{
-    font-size: 17px;
-    font-weight: 100;
-}
-
-.accordion {
-    width: 100%;
-    overflow: hidden;
-    background-color: orange;
-}
-
-.pan h1{
-    font-size: 30px;
-    font-weight: 600;
-    font-style: normal;
-    font-family: sans-serif;
-    padding-top: 2rem;
-    padding-bottom: 1rem; 
-    text-align: center;
-    color: white;
-}
-
-.accordion-item{
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    background-color: orange;
-    color: white;
-    border-bottom: 1px solid white;
-}
-
-.accordion-header {
-    width: 100%;
-    text-align: left;
-    font-size: 18px;
-    color: white;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: 0.3s ease;
-    background-color: orange;
-    display: flex;
-    justify-content: space-between;
-    padding: .5rem;
-}
-.accordion-header i{
-    transition: 3s ease-in-out;
-}
-.accordion-header:hover i{
-    rotate: 180deg;
-}
-
-.accordion-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: 0.3s ease-out;
-    padding: 0 15px;
-}
-
-.accordion-content p {
-    padding: 10px 0;
-    margin: 0;
-}
-
-.accordion-item.active .accordion-content {
-    max-height: 150px; 
-    padding: 10px 15px;
 }
 
 
@@ -551,63 +578,121 @@ footer{
         display: block;
     }
 
-    .altogether2 h2{
-        text-align: center;
-        padding-bottom: 1rem;
-        font-size: 25px;
-        font-weight: 100;
-        color: #373F48;
+    .what p{
+        display: none;
     }
 
-    .abuse p{
-        text-align: center;
+    .whatsApp img{
+        width: 140px;
+        height: 140px;
+    }
+
+    .appeal{
+       flex-direction: column;
         padding-bottom: 2rem;
-        font-size: 16px;
-        font-weight: 300;
-        /* color: orange; */
     }
-
     
-    .appeal .abi{
+    .meat h1{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    .meat p{
         font-size: 18px;
-        font-weight: 300;
-        padding-left: .5rem;
-        padding-right: .5rem;
+        font-weight: 200;
+        width:100%;
         padding-bottom: 1.5rem;
-        /* color: white; */
     }
 
-    .abi span{
-        padding-left: .5rem;
+    .ass img{
+       width: 99%;
+       padding-left: 2rem;
     }
 
-    .image{
-        background-color: black;
-        color: gold;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        position: relative;
-        bottom: 0;
-        border: 4rem auto;     
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 1rem 1rem 1rem 0rem;
+    .altogether3{
+        flex-direction: column;
     }
-    
-    .image .fa-chevron-up{
-        font-size: 20px;
+
+    .appeal2{
+        flex-direction: column;
+        background-color: white;
+        width: 95%;
+        border-radius: 8px;
+        margin-bottom: 2rem;
+        gap: 1.5rem;
+    }
+
+    .kob img{
+        padding-bottom: .5rem;
+    }
+
+    .doe{
+        gap: 1.5rem;
+    }
+
+    .abuse h2{
+        text-align: center;
     }
 
     .altogether4 h2{
+        font-size: 25px;
+        font-style: normal;
+        color: #131313;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        text-align: center;
+        font-weight: 400;
+        line-height: 41.6x;
+    }
+    
+    .appeal3{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 2rem;
+    }
+    
+    .kob2{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding-bottom: 2rem;
+        padding-left: 3.5rem;
+    }
+    
+    .fa-facebook{
+        font-size: 50px;
+    }
+    
+    .fa-instagram{
+        font-size: 50px;
+    }
+    
+    .fa-tiktok{
+        font-size: 50px;
+    }
+    
+    .fa-youtube{
+        font-size: 50px;
+    }
+    
+    .just p{
+        font-size: 20px;
+        font-weight: 200;
+    }
+    
+    .just span{
+        font-size: 20px;
+    }
+    
+    .altogether5 h2{
         font-size: 30px;
         color: white;
         font-weight: 700;
     }
     
 
-    .appeal2{
+    .appeal4{
         display: flex;
         gap: 2.5rem;
         flex-direction: column;
@@ -636,56 +721,7 @@ footer{
     .yeap p{
         text-align: center;
     }
-
-    .altogether5 h2{
-        font-size: 30px;
-        color: white;
-        font-weight: 700;
-    }
     
-
-    .appeal3{
-        display: flex;
-        gap: 2.5rem;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .uh2{
-        flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-bottom: 2rem;
-    }
-
-    .uh2 img{
-        padding-bottom: .5rem;
-        width: 90%;
-        height: 200px;
-    }
-
-    .yeap2 h3{
-        text-align: center;
-    }
-
-    .yeap2 p{
-        text-align: center;
-    }
-
-    .pan h1{
-        font-size: 17px;
-        font-weight: 600;
-        font-style: normal;
-        font-family: sans-serif;
-    }
-
-    .accordion-header{
-        font-size: 14px;
-    }
-
-      
     .vote{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -693,7 +729,6 @@ footer{
         align-items: center;
         padding-bottom: 1rem;
     }
-
 }
 /* For mobile media query ends*/
 
@@ -706,7 +741,69 @@ footer{
     .drop{
         display: block;
     }
+
+
+
+    .whatsApp img{
+        width: 140px;
+        height: 140px;
+    }
+
+    .appeal{
+        flex-direction: column;
+         padding-bottom: 2rem;
+    }
+     
+    .meat h1{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+    }
+     
+    .meat p{
+        font-size: 18px;
+        font-weight: 200;
+        width:100%;
+        padding-bottom: 1.5rem;
+    }
+ 
+    .ass img{
+        width: 99%;
+        padding-left: 2rem;
+    }
+
+
+    .altogether3{
+        flex-direction: column;
+    }
+
+    .appeal2{
+        flex-direction: column;
+        background-color: white;
+        width: 95%;
+        border-radius: 8px;
+        margin-bottom: 2rem;
+        gap: 1.5rem;
+    }
+
+    .kob img{
+        padding-bottom: .5rem;
+    }
+
+    .doe{
+        gap: 1.5rem;
+    }
+
+    .abuse h2{
+        text-align: center;
+    }
+
+    .kob2{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding-bottom: 2rem;
+        padding-left: 3.5rem;
+    }
+    
 }
-/* For tablets media query ends */
-
-
